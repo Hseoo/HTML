@@ -5,20 +5,49 @@
     <title> Dankook</title>
     <meta charset="utf-8">
     <style>
-        a{
-            color :blue;
-            text-decoration: none;
+        body{
+            margin:0;
         }
+        h1{
+            
+            font-size: 300%;
+            text-align: center;
+            border-bottom:1px solid gray;
+            margin:0;
+            padding:20px;
+        }
+        a{
+            color :black;
+            text-decoration: none;
+            
+        }
+        ol{
+            border-right: 1px solid gray;
+            width:150px;
+            margin:0;
+            padding:20px;
+            padding-left: 32px;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 200px 1fr;
+        }
+        #article{
+            padding-left: 33px;
+        }
+        
     </style>
 </head>
 <body>
     <h1><a href="index.html">홈으로</a></h1>
-<ol>
-    <li><a href="1.html" style="color:red">개요</a></li>
-    <li><a href="2.html" style="color:red">재단</a></li>
-    <li><a href="3.html" style="color:red">상징</a></li>
-</ol>
-
+<div id="grid">
+        <ol>
+            <li><a href="1.html" >개요</a></li>
+            <li><a href="2.html" >재단</a></li>
+            <li><a href="3.html" >상징</a></li>
+        </ol>
+    
+    <div id="article">
 <h2><a href="https://namu.wiki/w/%EB%8B%A8%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90" target="_blank" title="단국대">단국대학교</a></h2>
 
 <p>경기도 용인시 수지구와 충청남도 천안시 동남구에 있는 사립 종합대학교.
@@ -27,9 +56,11 @@
 본래 서울특별시 용산구 한남동에 위치해 있었으나 2007년도 용인 수지로 캠퍼스 이전을 했다.</p>
 <img src="dankook.svg" width="50%">
 <p>
-    단국대학교 <strong><u>죽전캠퍼스</u></strong>와 천안캠퍼스는 이원화 캠퍼스이며, 죽전캠퍼스는 IT(정보통신)와 CT(문화콘텐츠)학문 분야로, 천안캠퍼스는 의대·치대·약대를 바탕으로 한 BT(생명과학)와 FL(외국어)학문 분야로 운영되고 있다.
+    단국대학교 <strong><u style="color: red;">죽전캠퍼스</u></strong>와 천안캠퍼스는 이원화 캠퍼스이며, 죽전캠퍼스는 IT(정보통신)와 CT(문화콘텐츠)학문 분야로, 천안캠퍼스는 의대·치대·약대를 바탕으로 한 BT(생명과학)와 FL(외국어)학문 분야로 운영되고 있다.
     단국대학교를 운영하는 학교법인 단국대학은 단국대학교 사범대학 부속으로 서울특별시 강남구 대치동에 있는 단국대학교사범대학부속중학교, 단국대학교사범대학부속고등학교, 단국대학교부속소프트웨어고등학교를 함께 운영 중이다</p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/GeeM2V15QFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>
+</div>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/GeeM2V15QFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <div id="disqus_thread"></div>
 <script>
